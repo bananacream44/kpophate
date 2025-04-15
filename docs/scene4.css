@@ -29,7 +29,7 @@ body {
 #folders{
   display:flex;
   position:relative;
-  left:22vw;
+  left:32vw;
   top:18vh;
   z-index:1
 }
@@ -52,6 +52,16 @@ body {
   transition: transform 0.3s ease-out;
   opacity:0;
   background-color:black;
+  color:white;
+  overflow-y:scroll;
+}
+#essayText2{
+  color:white;
+  font-family: 'Press Start 2P', monospace;
+  font-size:small;
+  padding:10px;
+  overflow-y:scroll;
+  height:900px;
 }
 #essayText.active{
   transform:scale(1);
@@ -109,7 +119,7 @@ img{
 
 #textBox{
     width:800px;
-    height:170px;
+    height:190px;
     background-color:black;
     position:relative;
     border: 2px solid white;
